@@ -34,14 +34,14 @@ Type [http ](https://hermienvanstaden.github.io/StoreTask/)into searchbox of Int
 
 Usage screenshots:
 
-![childhood_img](https://github.com/HermienvanStaden/StoreTask/blob/main/StoreImages/Screenshot%20StoreTask1.png
+![store_img](https://github.com/HermienvanStaden/StoreTask/blob/main/StoreImages/Screenshot%20StoreTask1.png
 
-![childhood_img1](https://github.com/HermienvanStaden/StoreTask/blob/main/StoreImages/Screenshot%20StoreTask1.png) "StoreTask Screenshot 1"))
+![store_img1](https://github.com/HermienvanStaden/StoreTask/blob/main/StoreImages/Screenshot%20StoreTask1.png) "StoreTask Screenshot 1"))
 
 
-![childhood_img](https://github.com/HermienvanStaden/StoreTask/blob/main/StoreImages/Screenshot%20StoreTask2.png
+![store_img](https://github.com/HermienvanStaden/StoreTask/blob/main/StoreImages/Screenshot%20StoreTask2.png
 
-![childhood_img2](https://github.com/HermienvanStaden/StoreTask/blob/main/StoreImages/Screenshot%20StoreTask2.png) "StoreTask Screenshot 2"))
+![store_img2](https://github.com/HermienvanStaden/StoreTask/blob/main/StoreImages/Screenshot%20StoreTask2.png) "StoreTask Screenshot 2"))
 
 ## Authors
 
