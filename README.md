@@ -1,13 +1,15 @@
 # StoreTask
 
-A short simple simulation of an online store page
+A simple simulation of an online store page
 
 ## Description
 
 The purpose for this project is to demonstrate profiency in using HTML
 and Bootstrap.
 The page shows ten products with prices and images. Each product has a
-(non-functional) 'buy now' button. Images have a hover effect.
+(non-functional) 'add to cart' button. Images have a hover effect.
+At the bottom of the page is a horizontal form for users to share 
+their details.
 
 ## Table of Contents
 1. Getting started
@@ -32,14 +34,14 @@ Type [http ](https://hermienvanstaden.github.io/StoreTask/)into searchbox of Int
 
 Usage screenshots:
 
-![childhood_img](https://github.com/HermienvanStaden/MyCV/blob/main/Images/Screenshot%20MyCV1.png
+![childhood_img](https://github.com/HermienvanStaden/StoreTask/blob/main/StoreImages/Screenshot%20StoreTask1.png
 
-![childhood_img1](https://github.com/HermienvanStaden/MyCV/blob/main/Images/Screenshot%20MyCV1.png) "MyCV Screenshot 1"))
+![childhood_img1](https://github.com/HermienvanStaden/StoreTask/blob/main/StoreImages/Screenshot%20StoreTask1.png) "StoreTask Screenshot 1"))
 
 
-![childhood_img](https://github.com/HermienvanStaden/MyCV/blob/main/Images/Screenshot%20MyCV2.png
+![childhood_img](https://github.com/HermienvanStaden/StoreTask/blob/main/StoreImages/Screenshot%20StoreTask2.png
 
-![childhood_img2](https://github.com/HermienvanStaden/MyCV/blob/main/Images/Screenshot%20MyCV2.png) "MyCV Screenshot 2"))
+![childhood_img2](https://github.com/HermienvanStaden/StoreTask/blob/main/StoreImages/Screenshot%20StoreTask2.png) "StoreTask Screenshot 2"))
 
 ## Authors
 
