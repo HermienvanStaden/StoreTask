@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Art Supplies</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+        crossorigin="anonymous">
+    </head>
+
+    <!--Set style of product images on hover-->
+    <style type="text/css">
+        .img-fluid {
+            transition: all 0.3s;
+        }
+        .img-fluid:hover {
+            transform: scale(1.15);
+        }
+    </style>
+
+    <body>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="StoreImages/logo/png/logo-med.jpg" alt="MLH Art Supplies">
+            </div>
+            <div class="m-5 p-5 col-md-5">
+                <h1 class="text-center">Special offers in February</h1>
+            </div>
+        </div>
+        <!--First row of products-->
+        <div class="row">
+            <!--First item of Row 1.
+            Each item contains the name of the product, an image that zooms on hover, 
+            a price and a yellow 'Add to cart' button-->
+            <div class="m-5 p-5 col-md-3">
+                <h3>Royal & Langnickel gouache paint set - 24 colours</h3>
+                <img src="StoreImages/gouache.jpeg" alt="Gouache paint set"
+                class="img-fluid">
+                <h4>R609</h4>
+                <button type="button" class="btn btn-warning"><b>Add to cart</b></button>
+            </div>
+            <div class="m-5 p-5 col-md-3">
+                <h3>Old Holland artist's oil paint set (40 ml) - 10 colours</h3>
+                <img src="StoreImages/oilpaintSmall.jpg" class="img-fluid"
+                alt="Oil paint set">
+                <h4>R3 999</h4>
+                <button type="button" class="btn btn-warning"><b>Add to cart</b></button>
+            </div>
+            <div class="m-5 col-md-3">
+                <h3>Michael Harding refined gum turpentine for artists 100 ml</h3>
+                <img src="StoreImages/turpentineSmall.jpg" class="img-fluid"
+                alt="Artist's turpentine">
+                <h4>R699</h4>
+                <button type="button" class="btn btn-warning"><b>Add to cart</b></button>
+            </div>
+        </div>
+        <!--Second row of products-->
+        <div class="row">
+            <div class="m-5 p-5 col-md-3">
+                <h3>Pentel Arts Oil pastels - 50 colours</h3>
+                <img src="StoreImages/pastels.jpg" class="img-fluid" alt="Oil pastel set">
+                <h4>R1 359</h4>
+                <button type="button" class="btn btn-warning"><b>Add to cart</b></button>
+            </div>
+            <div class="m-5 p-5 col-md-3">
+                <h3>Beginner's colour pencil set - 15 colours</h3>
+                <img src="StoreImages/pencils.jpg" class="img-fluid"
+                alt="Colour pencil set">
+                <h4>R189</h4>
+                <button type="button" class="btn btn-warning"><b>Add to cart</b></button>
+            </div>
+            <div class="m-5 p-5 col-md-3">
+                <h3>Generals Collection Charcoal Drawing Kit</h3>
+                <img src="StoreImages/charcoal.jpg" class="img-fluid"
+                alt="Artist's charcoal kit">
+                <h4>R1 059</h4>
+                <button type="button" class="btn btn-warning"><b>Add to cart</b></button>
+            </div>
+        </div>
+        <!--Third row of products-->
+        <div class="row">
+            <div class="m-5 p-5 col-md-3">
+                <h3>Imitation golfleaf</h3>
+                <img src="StoreImages/goldleaf.jpg" class="img-fluid" alt="Goldleaf pack">
+                <h4>R389</h4>
+                <button type="button" class="btn btn-warning"><b>Add to cart</b></button>
+            </div>
+            <div class="m-5 p-5 col-md-3">
+                <h3>Zhu Ting art brush set - 10 brushes</h3>
+                <img src="StoreImages/brushes.jpg" class="img-fluid" 
+                alt="Artist's brush set">
+                <h4>R399</h4>
+                <button type="button" class="btn btn-warning"><b>Add to cart</b></button>
+            </div>
+            <div class="m-5 p-5 col-md-3">
+                <h3>Kneadable artist's eraser</h3>
+                <img src="StoreImages/eraser.jpg" class="img-fluid"
+                alt="Kneadable eraser">
+                <h4>R21</h4>
+                <button type="button" class="btn btn-warning"><b>Add to cart</b></button>
+            </div>
+        </div>
+        <!--Fourth row of products-->
+        <div class="row">
+            <div class="m-5 p-5 col-md-3">
+                <h3>A3 Spiralbound sketchbook</h3>
+                <img src="StoreImages/sketchbook.jpg" class="img-fluid"
+                alt="Artist's sketchbook">
+                <h4>R719</h4>
+                <button type="button" class="btn btn-warning"><b>Add to cart</b></button>
+            </div>
+        </div>
+
+        <!--Get visitor's name, surname, cellphone number and email address via horizontal form-->
+        <form>
+            <div class="row">
+                <!--Add small store logo left of horizontal form-->
+                <div class="col-md-1">
+                    <img src="StoreImages/logo/png/logo-small.png" alt="MLH Art Supplies">
+                </div>
+                <div class="col-sm-11">
+                    <div class="row m-3 mb-3">
+                        <div class="p-3 bg-info"><h3>Share your details:</h3></div>
+                        <label for="inputName3" class="col-sm-2 mt-3 col-form-label"><b>Name</b></label>
+                        <div class="col-sm-10">
+                            <input type="name" class="form-control mt-3 bg-light" id="inputName3">
+                        </div>
+                    </div>
+                    <div class="row m-3 mb-3">
+                        <label for="inputSurname3" class="col-sm-2 col-form-label"><b>Surname</b></label>
+                        <div class="col-sm-10">
+                            <input type="surname" class="form-control bg-light" id="inputSurname3">
+                        </div>
+                    </div>
+                    <div class="row m-3 mb-3">
+                        <label for="inputCell3" class="col-sm-2 col-form-label"><b>Cellphone</b></label>
+                        <div class="col-sm-10">
+                            <input type="cell" class="form-control bg-light" id="inputCell3">
+                        </div>
+                    </div>
+                    <div class="row m-3 mb-3">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label"><b>Email</b></label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control bg-light" id="inputEmail3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
